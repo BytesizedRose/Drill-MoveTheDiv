@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body,.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    background: rgb(109, 8, 109);
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background: rgb(234, 61, 191);
+}
+.divider{
+    height: 100%;
+    width: 5px;
+    background: white;
+    cursor: grab;
+    user-select: none;
+}
+.divider:active{
+    cursor: grabbing;
+}
